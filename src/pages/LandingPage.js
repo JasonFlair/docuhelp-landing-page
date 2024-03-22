@@ -69,9 +69,9 @@ export default function LandingPage() {
         </div>
       </section>
       <section className="main-section bg-docuhelpBorder-100">
-        <div className="bg-[#ffffff] flex flex-col lg:flex-row items-center pl-6 pr-6 pt-8 lg:pl-12 lg:pr-0 lg:pt-12 rounded-3xl">
-          <div className="flex flex-col lg:w-3/4 gap-8 mb-4 lg:mb-0">
-            <div className="lg:w-2/3">
+        <div className="bg-[#ffffff] flex flex-col lg:flex-row items-center gap-6 pl-6 pr-6 pt-8 lg:pl-12 lg:pr-12 lg:pt-12 rounded-3xl">
+          <div className="flex flex-col lg:w-1/2 gap-8 mb-4 lg:mb-0">
+            <div className="">
               <hr style={{borderTop: '3px solid rgba(26, 10, 215, 1)'}}></hr>
               <h1 className="text-[24px] lg:text-[40px] text-docuhelpBlue-100 font-extrabold">
                 USE DOCUHELP TO WRITE DOCUMENTS FOR YOUR BUSINESS, WORK REPORT, AND PROPOSALS FOR YOUR NEXT PROJECT! 
@@ -83,7 +83,7 @@ export default function LandingPage() {
               </button>
             </div>
           </div>
-          <div className=" w-3/4 lg:h-1/2 ">
+          <div className="lg:h-1/2 ">
             <img
               className="lg:rounded-br-3xl"
               alt="lady with laptop" src="./images/lady-with-laptop.svg" />
