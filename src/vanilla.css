@@ -1,0 +1,9 @@
+/*
+this page simply contains styling in vanilla css 
+ */
+
+.hero-lower-section {
+  background: url(../public/images/lines.svg);
+  background-position: center;
+  background-size: cover;
+}

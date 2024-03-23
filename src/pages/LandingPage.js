@@ -1,3 +1,4 @@
+import Hero from "../components/Hero";
 import MobileHeader from "../components/MobileHeader";
 import WebHeader from "../components/WebHeader";
 
@@ -8,6 +9,7 @@ export default function LandingPage() {
         <WebHeader />
         <MobileHeader/>
       </header>
+      <Hero />
       <section className="main-section bg-docuhelpBorder-100">
         <div className="bg-[#ffffff] flex flex-col gap-8 px-6 py-8 lg:px-12 lg:py-12 rounded-xl lg:rounded-3xl">
           <div className="flex flex-col lg:flex-row lg:items-center gap-12 lg:gap-24">

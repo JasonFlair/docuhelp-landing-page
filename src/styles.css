@@ -6,6 +6,10 @@
   @apply container py-4 px-6 md:py-8 md:px-[60px] lg:px-[105px] shrink-0 grow-0 min-w-full;
 }
 
+.hero-section {
+  @apply container py-4 px-4 md:py-8 md:px-[60px] lg:px-[105px] shrink-0 grow-0 min-w-full;
+}
+
 .button {
   @apply px-4 py-2 rounded-md
 }
