@@ -2,6 +2,7 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import MobileHeader from "../components/MobileHeader";
 import WebHeader from "../components/WebHeader";
+import WhyDocuhelp from "../components/WhyDocuhelp";
 
 export default function LandingPage() {
   return (
@@ -11,7 +12,7 @@ export default function LandingPage() {
         <MobileHeader/>
       </header>
       <Hero />
-      <section className="main-section bg-docuhelpBorder-100">
+      <section className="main-section bg-docuhelpBg">
         <div className="bg-[#ffffff] flex flex-col gap-8 px-6 py-8 lg:px-12 lg:py-12 rounded-xl lg:rounded-3xl">
           <div className="flex flex-col lg:flex-row lg:items-center gap-12 lg:gap-24">
             <div className="lg:w-1/2">
@@ -37,7 +38,7 @@ export default function LandingPage() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col lg:flex-row gap-4">
+          <div className="flex flex-row gap-4">
             <button className="bg-docuhelpBlue-100 text-white button w-[186px] h-[62px]">
               Get started
             </button>
@@ -47,7 +48,7 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
-      <section className="main-section bg-docuhelpBorder-100">
+      <section className="main-section bg-docuhelpBg">
         <div className="bg-[#ffffff] flex flex-col pl-4 pt-8 lg:pl-12 lg:pt-12 rounded-xl lg:rounded-3xl">
           <div className="flex flex-col lg:w-3/4 gap-8 mb-4 lg:mb-0">
             <div className="lg:w-2/3">
@@ -71,7 +72,7 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
-      <section className="main-section bg-docuhelpBorder-100">
+      <section className="main-section bg-docuhelpBg">
         <div className="bg-[#ffffff] flex flex-col lg:flex-row items-center gap-6 pl-6 pr-6 pt-8 lg:pl-12 lg:pr-12 lg:pt-12 rounded-3xl">
           <div className="flex flex-col lg:w-1/2 gap-8 mb-4 lg:mb-0">
             <div className="">
@@ -93,13 +94,11 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
-      <section className="main-section">
-        <h1 className="text-[40px] lg:text-[64px] text-docuhelpBlue-100 font-extrabold text-center mt-12">
+      <section className="main-section bg-docuhelpBg">
+        <h1 className="text-[40px] lg:text-[64px] text-docuhelpBlue-100 font-extrabold text-center mt-12 mb-12">
           Why Docuhelp?
         </h1>
-        <div className="flex flex-col">
-          
-        </div>
+        <WhyDocuhelp /> {/* Interactive component that displays the reasons why Docuhelp is the best choice for writing documents. */}
       </section>
       <Footer />
     </main>

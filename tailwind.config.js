@@ -10,7 +10,7 @@ export const theme = {
         100: "#D2CEFD", 
         200: "#E8E7FE"
       },
-      docuhelpHeroBg: "#F6F5FF",
+      docuhelpBg: "#F6F5FF",
       docuhelpFooterBg: "#0D0C0D"
     }
   },
