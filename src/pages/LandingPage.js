@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import MobileHeader from "../components/MobileHeader";
 import WebHeader from "../components/WebHeader";
@@ -92,6 +93,15 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
+      <section className="main-section">
+        <h1 className="text-[40px] lg:text-[64px] text-docuhelpBlue-100 font-extrabold text-center mt-12">
+          Why Docuhelp?
+        </h1>
+        <div className="flex flex-col">
+          
+        </div>
+      </section>
+      <Footer />
     </main>
   );
 }

@@ -1,7 +1,7 @@
 export function ConnectWithDocuhelp () {
   return (
     <section className="flex flex-col gap-2">
-      <div className="social-media-icons flex justify-between items-center">
+      <div className="social-media-icons flex gap-4 justify-between items-center">
         <a href="https://www.linkedin.com/company/wynk-nigeria/" target="_blank" rel="noreferrer">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
             <g clip-path="url(#clip0_8682_10619)">
