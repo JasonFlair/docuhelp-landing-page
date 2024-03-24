@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html {
-  font-family: "Open Sans", sans-serif; 
+  font-family: "Nunito Sans", sans-serif;
 }
 .main-section {
   @apply container py-4 px-6 md:py-8 md:px-[60px] lg:px-[105px] shrink-0 grow-0 min-w-full;

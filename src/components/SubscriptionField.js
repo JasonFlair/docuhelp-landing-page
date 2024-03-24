@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SubscriptionField = () => {
+function SubscriptionField () {
   return (
     <div className="w-full relative flex items-center border-docuhelpBlue-100 border-1">
       <input

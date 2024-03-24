@@ -1,5 +1,6 @@
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
+import HowItWorks from "../components/HowItWorks";
 import MobileHeader from "../components/MobileHeader";
 import WebHeader from "../components/WebHeader";
 import WhyDocuhelp from "../components/WhyDocuhelp";
@@ -10,7 +11,7 @@ import WhyDocuhelp from "../components/WhyDocuhelp";
 export default function LandingPage() {
   return (
     <main>
-      <header className="main-section">
+      <header className="main-section fixed z-30 bg-white">
         <WebHeader />
         <MobileHeader/>
       </header>
@@ -95,6 +96,25 @@ export default function LandingPage() {
               className="lg:rounded-br-3xl"
               alt="lady with laptop" src="./images/lady-with-laptop.svg" />
           </div>
+        </div>
+      </section>
+      <section className="flex flex-col lg:flex-row">
+        <div className="lg:w-2/3">
+          <HowItWorks />
+        </div>
+        <div
+          className="py-4 px-6 md:py-8 md:px-[60px] lg:px-[50px] lg:w-1/3 bg-docuhelpBg flex flex-col gap-12">
+          <div>
+            <img
+              alt="document" src="./images/document-image.svg"
+              className="mb-4"
+            />
+            <h2 className="mb-4 font-bold text-[28px] lg:text-[32px]">Write Quick Accurate Business Letter</h2>
+            <p className="font-semibold lg:font-medium text-[16px] lg:text-[22px]">With docuhelp.ai users can write detailed formal letters with 100% accurecy</p>
+          </div>
+          <button className="bg-docuhelpBg text-docuhelpBlue-100 font-bold button w-[200px] h-[65px] border-[1px] border-docuhelpBlue-100">
+            Start Writing
+          </button>
         </div>
       </section>
       <section className="main-section bg-docuhelpBg">
