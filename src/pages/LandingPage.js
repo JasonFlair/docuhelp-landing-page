@@ -4,6 +4,9 @@ import MobileHeader from "../components/MobileHeader";
 import WebHeader from "../components/WebHeader";
 import WhyDocuhelp from "../components/WhyDocuhelp";
 
+/**
+ * Renders the landing page of the DocuHelp application.
+ */
 export default function LandingPage() {
   return (
     <main>
