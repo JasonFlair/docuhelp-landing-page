@@ -1,5 +1,5 @@
 # SUMMARY
-This repository contains source code for a responsive do uhelp.ai landing page.
+This repository contains source code for a responsive docuhelp.ai landing page.
 
 The landing page contains:
 
