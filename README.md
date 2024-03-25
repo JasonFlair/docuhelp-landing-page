@@ -1,5 +1,5 @@
-## SUMMARY
-This repository contains source code for a responsive douhelp.ai landing page.
+# SUMMARY
+This repository contains source code for a responsive do uhelp.ai landing page.
 
 The landing page contains:
 
@@ -21,7 +21,7 @@ https://docuhelp-landing-page.vercel.app/
 # Getting Started with the Docuhelp Landing Page React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-npm install --save-dev react-styleguidist
+Use `npm install` to install the dependencies
 ## Available Scripts
 
 In the project directory, you can run:
@@ -58,10 +58,3 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-### `npm run styleguide`
-
-Generates the documentation using `react-styleguidist`.\
-Open [http://localhost:6060](http://localhost:6060) to view the documentation in your browser.
-
-The page will reload when you make changes to the documentation files.
