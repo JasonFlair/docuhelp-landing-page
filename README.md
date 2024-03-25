@@ -21,7 +21,7 @@ https://docuhelp-landing-page.vercel.app/
 # Getting Started with the Docuhelp Landing Page React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-Use `npm install` to install the dependencies
+Clone the repository using `git clone https://github.com/JasonFlair/docuhelp-landing-page` and in the project directory, use `npm install` to install the dependencies
 ## Available Scripts
 
 In the project directory, you can run:
