@@ -110,7 +110,7 @@ export default function LandingPage() {
               className="mb-4"
             />
             <h2 className="mb-4 font-bold text-[28px] lg:text-[32px]">Write Quick Accurate Business Letter</h2>
-            <p className="font-semibold lg:font-medium text-[16px] lg:text-[22px]">With docuhelp.ai users can write detailed formal letters with 100% accurecy</p>
+            <p className="font-semibold lg:font-medium text-[16px] lg:text-[22px]">With docuhelp.ai users can write detailed formal letters with 100% accuracy</p>
           </div>
           <button className="bg-docuhelpBg text-docuhelpBlue-100 font-bold button w-[200px] h-[65px] border-[1px] border-docuhelpBlue-100">
             Start Writing
