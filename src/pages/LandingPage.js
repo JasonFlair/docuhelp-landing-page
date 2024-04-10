@@ -72,7 +72,7 @@ export default function LandingPage() {
           <div className="w-full lg:w-3/4 lg:h-1/2 ml-0 lg:ml-[273px] lg:mt-[-320px]">
             <img
               className="rounded-br-xl lg:rounded-br-3xl"
-              alt="guy on his laptop" src="./images/guy-on-laptop.svg" />
+              alt="guy on his laptop" src="./images/guy-on-laptop.png" />
           </div>
         </div>
       </section>
@@ -94,7 +94,7 @@ export default function LandingPage() {
           <div className="lg:h-1/2 ">
             <img
               className="lg:rounded-br-3xl"
-              alt="lady with laptop" src="./images/lady-with-laptop.svg" />
+              alt="lady with laptop" src="./images/lady-with-laptop.png" />
           </div>
         </div>
       </section>
